@@ -12,9 +12,9 @@ public class Database {
 private static String MYSQL_DRIVER= "com.mysql.jdbc.Driver";
 private static String MYSQL_URL="jdbc:mysql://localhost:3306/ddt_movies?autoReconnect=true&useSSL=false";
 //private String user ="root";
-//private String password="God0fmadnes$";
+//private String password="";
 private static String user ="root";
-private static String password="Mond1234";
+private static String password="";
 private static java.sql.Connection con;
 
 public static void post() throws Exception{
